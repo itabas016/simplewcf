@@ -32,7 +32,7 @@ using System.ServiceModel.Activation;
 using System.ServiceModel.Syndication;
 using System.ServiceModel.Web;
 
-#if Mock
+#if DEBUG
 using WebOperationContext = System.ServiceModel.Web.MockedWebOperationContext;
 #endif
 

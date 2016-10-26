@@ -47,6 +47,12 @@
     <Compile Include="ProductCatalog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WCFMock\WCFMock.csproj">
+      <Project>{bdedbb73-e305-498d-a908-0672335bf328}</Project>
+      <Name>WCFMock</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
